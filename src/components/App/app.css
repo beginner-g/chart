@@ -1,0 +1,25 @@
+.app{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.PieChart{
+  display: flex;
+}
+.list{
+  line-height: 40px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.list-name{
+  width: 120px;
+  text-align: center;
+  border-radius: 7px 0 0 7px;
+  color: #fff;
+}
+.list-value{
+  border-radius: 0 7px 7px 0;
+  line-height: 36px;
+  text-indent: 15px;
+  flex-grow: 1;
+}
